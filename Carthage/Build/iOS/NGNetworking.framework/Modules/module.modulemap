@@ -1,0 +1,11 @@
+framework module NGNetworking {
+  umbrella header "NGNetworking.h"
+
+  export *
+  module * { export * }
+}
+
+module NGNetworking.Swift {
+    header "NGNetworking-Swift.h"
+    requires objc
+}
